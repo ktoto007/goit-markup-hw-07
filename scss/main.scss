@@ -1,0 +1,22 @@
+@import "./tools/variables";
+@import "./tools/mainPageStyle";
+@import "./tools/backdrop";
+//Header
+@import "./header/header";
+/*Стилизирую Героя*/
+@import "./main/hero";
+/*Секция со скрытым заголовком*/
+@import "./main/benefits";
+/*Секция с доп элементами*/
+@import "./main/aside";
+/*Секция с командой*/
+@import "./main/team";
+@import "./main/teamSocialLinks";
+/*Секция клиентов*/
+@import "./main/clients";
+/*Футер*/
+@import "./footer/footer";
+/*Стили модалки*/
+@import "./modal/modal";
+/*Стили Портфолио*/
+@import "./portfolio/portfolio";
