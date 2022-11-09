@@ -1,22 +1,32 @@
-@import "./tools/variables";
-@import "./tools/mainPageStyle";
-@import "./tools/backdrop";
+@import "./utils/variables";
+@import "./utils/mainPageStyle";
+@import "./utils/backdrop";
 //Header
-@import "./header/header";
+@import "./components/headerStyles";
+@import "./components/headerNav";
+@import "./components/headerLogo";
+@import "./components/headerThis-page";
+@import "./components/headerConnection";
 /*Стилизирую Героя*/
-@import "./main/hero";
+@import "./components/hero";
 /*Секция со скрытым заголовком*/
-@import "./main/benefits";
+@import "./components/benefits";
 /*Секция с доп элементами*/
-@import "./main/aside";
+@import "./components/aside";
 /*Секция с командой*/
-@import "./main/team";
-@import "./main/teamSocialLinks";
+@import "./components/team";
+@import "./components/teamSocialLinks";
 /*Секция клиентов*/
-@import "./main/clients";
+@import "./components/clients";
 /*Футер*/
-@import "./footer/footer";
+@import "./components/footerStyle";
+@import "./components/footerAdres";
+@import "./components/footerSocialLinks";
+@import "./components/footerForm";
 /*Стили модалки*/
-@import "./modal/modal";
+@import "./components/modalWindow";
+@import "./components/modalForm";
 /*Стили Портфолио*/
-@import "./portfolio/portfolio";
+@import "./components/portfolioStyle";
+@import "./components/portfolioSelection";
+@import "./components/portfolioList";
